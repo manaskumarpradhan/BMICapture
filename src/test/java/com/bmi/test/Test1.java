@@ -28,6 +28,7 @@ public class Test1 extends TestBase{
 		Assert.assertEquals(tittle, "GoogleM");
 		driver.close();
 		test.log(LogStatus.INFO, "sucess test1");
+		System.out.println("nothing to add after test completed");
 		
 	}
 
