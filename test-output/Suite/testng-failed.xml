@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.bmi.test.NewCommercialQuote">
+        <methods>
+          <include name="finalizeQuote"/>
+          <include name="GenerateDoc"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="StartNewQuote"/>
+          <include name="FillSiteInfo"/>
+          <include name="selectServiceOfferings"/>
+          <include name="providePrice"/>
+          <include name="setup"/>
+          <include name="StartBrowser"/>
+          <include name="navigateToQuoteCreation"/>
+        </methods>
+      </class> <!-- com.bmi.test.NewCommercialQuote -->
+      <class name="com.bmi.test.NewIndustrialQuote">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="createIndQuote"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.bmi.test.NewIndustrialQuote -->
+      <class name="com.bmi.test.ExistingCommercialQuote">
+        <methods>
+          <include name="generateDocument"/>
+          <include name="selectservice"/>
+          <include name="StartNewQuote_1"/>
+          <include name="navigateToQuoteCreation"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="serviceConfigure"/>
+          <include name="providePrice"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
+          <include name="finalizeQuote"/>
+          <include name="searchCustomer"/>
+        </methods>
+      </class> <!-- com.bmi.test.ExistingCommercialQuote -->
+      <class name="com.bmi.test.NewMailbackQuote">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="createMailBackQuote"/>
+        </methods>
+      </class> <!-- com.bmi.test.NewMailbackQuote -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

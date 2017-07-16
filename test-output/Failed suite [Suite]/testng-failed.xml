@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.bmi.test.ExistingCommercialQuote">
+        <methods>
+          <include name="generateDocument"/>
+          <include name="selectservice"/>
+          <include name="StartNewQuote_1"/>
+          <include name="navigateToQuoteCreation"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="serviceConfigure"/>
+          <include name="providePrice"/>
+          <include name="setup"/>
+          <include name="finalizeQuote"/>
+          <include name="searchCustomer"/>
+        </methods>
+      </class> <!-- com.bmi.test.ExistingCommercialQuote -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="515571" started-at="2017-07-16T02:56:28Z" finished-at="2017-07-16T03:05:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="515571" started-at="2017-07-16T02:56:28Z" finished-at="2017-07-16T03:05:04Z">
+      <class name="com.bmi.test.ExistingCommercialQuote">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.bmi.test.ExistingCommercialQuote@4bee09]" name="openBrowser" duration-ms="125503" started-at="2017-07-16T08:32:57Z" finished-at="2017-07-16T08:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bmi.test.ExistingCommercialQuote@4bee09]" name="getResult" is-config="true" duration-ms="1217" started-at="2017-07-16T08:35:03Z" finished-at="2017-07-16T08:35:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openBrowser status=SUCCESS method=ExistingCommercialQuote.openBrowser()[pri:1, instance:com.bmi.test.ExistingCommercialQuote@4bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.bmi.test.ExistingCommercialQuote -->
+      <class name="com.bmi.test.NewIndustrialQuote">
+        <test-method status="PASS" signature="createIndQuote()[pri:0, instance:com.bmi.test.NewIndustrialQuote@16c48ac]" name="createIndQuote" duration-ms="133467" started-at="2017-07-16T08:28:25Z" finished-at="2017-07-16T08:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIndQuote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bmi.test.NewIndustrialQuote@16c48ac]" name="getResult" is-config="true" duration-ms="1165" started-at="2017-07-16T08:30:39Z" finished-at="2017-07-16T08:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createIndQuote status=SUCCESS method=NewIndustrialQuote.createIndQuote()[pri:0, instance:com.bmi.test.NewIndustrialQuote@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.bmi.test.NewIndustrialQuote -->
+      <class name="com.bmi.test.NewMailbackQuote">
+        <test-method status="PASS" signature="createMailBackQuote()[pri:0, instance:com.bmi.test.NewMailbackQuote@1deb50e]" name="createMailBackQuote" duration-ms="135877" started-at="2017-07-16T08:30:40Z" finished-at="2017-07-16T08:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMailBackQuote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bmi.test.NewMailbackQuote@1deb50e]" name="getResult" is-config="true" duration-ms="1356" started-at="2017-07-16T08:32:56Z" finished-at="2017-07-16T08:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createMailBackQuote status=SUCCESS method=NewMailbackQuote.createMailBackQuote()[pri:0, instance:com.bmi.test.NewMailbackQuote@1deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.bmi.test.NewMailbackQuote -->
+      <class name="com.bmi.test.NewCommercialQuote">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bmi.test.NewCommercialQuote@ebc39e]" name="setup" is-config="true" duration-ms="672" started-at="2017-07-16T08:26:28Z" finished-at="2017-07-16T08:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.bmi.test.NewCommercialQuote@ebc39e]" name="StartBrowser" duration-ms="115406" started-at="2017-07-16T08:26:28Z" finished-at="2017-07-16T08:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bmi.test.NewCommercialQuote@ebc39e]" name="getResult" is-config="true" duration-ms="1498" started-at="2017-07-16T08:28:24Z" finished-at="2017-07-16T08:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=StartBrowser status=SUCCESS method=NewCommercialQuote.StartBrowser()[pri:0, instance:com.bmi.test.NewCommercialQuote@ebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bmi.test.NewCommercialQuote@ebc39e]" name="tearDown" is-config="true" duration-ms="16349" started-at="2017-07-16T08:35:04Z" finished-at="2017-07-16T08:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bmi.test.NewCommercialQuote -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

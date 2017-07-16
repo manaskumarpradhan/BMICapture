@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7264" started-at="2017-07-04T02:52:33Z" finished-at="2017-07-04T02:52:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7264" started-at="2017-07-04T02:52:33Z" finished-at="2017-07-04T02:52:40Z">
+      <class name="com.bmi.rough.DailyPractice">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bmi.rough.DailyPractice@ebc39e]" name="setup" is-config="true" duration-ms="281" started-at="2017-07-04T08:22:33Z" finished-at="2017-07-04T08:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="demoMethod()[pri:0, instance:com.bmi.rough.DailyPractice@ebc39e]" name="demoMethod" duration-ms="6947" started-at="2017-07-04T08:22:33Z" finished-at="2017-07-04T08:22:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[page tittles are not matching expected [Googlemanas] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: page tittles are not matching expected [Googlemanas] but found [Google]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.bmi.rough.DailyPractice.demoMethod(DailyPractice.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bmi.rough.DailyPractice@ebc39e]" name="getResult" is-config="true" duration-ms="2" started-at="2017-07-04T08:22:40Z" finished-at="2017-07-04T08:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoMethod status=FAILURE method=DailyPractice.demoMethod()[pri:0, instance:com.bmi.rough.DailyPractice@ebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.bmi.rough.DailyPractice@ebc39e]" name="tearDown" is-config="true" duration-ms="5277" started-at="2017-07-04T08:22:40Z" finished-at="2017-07-04T08:22:46Z">
+          <exception class="org.apache.commons.mail.EmailException">
+            <message>
+              <![CDATA[Cannot attach file "./log/extentrepNew.html"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.commons.mail.EmailException: Cannot attach file "./log/extentrepNew.html"
+	at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:338)
+	at com.bmi.rough.TestBase.tearDown(TestBase.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:350)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.io.IOException: "./log/extentrepNew.html" does not exist
+	at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:327)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.commons.mail.EmailException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bmi.rough.DailyPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
